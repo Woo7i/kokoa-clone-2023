@@ -1,0 +1,45 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(151, 148, 148, 0.2);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: #2e363e;
+}
+
+.notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--notification);
+  border-radius: 50%;
+  position: absolute;
+}
+.nav__notification {
+  width: 25px;
+  height: 25px;
+  color: white;
+  font-weight: 600;
+
+  /* position */
+  left: 22px;
+  bottom: 14px;
+}
+.ellipsis__notification {
+  width: 5px;
+  height: 5px;
+
+  /* position */
+  left: 30px;
+}
