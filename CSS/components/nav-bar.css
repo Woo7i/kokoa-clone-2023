@@ -18,25 +18,14 @@
   color: #2e363e;
 }
 
-.notification {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--notification);
-  border-radius: 50%;
-  position: absolute;
-}
 .nav__notification {
-  width: 25px;
-  height: 25px;
-  color: white;
-  font-weight: 600;
-
   /* position */
+  position: absolute;
   left: 22px;
   bottom: 14px;
 }
 .ellipsis__notification {
+  position: absolute;
   width: 5px;
   height: 5px;
 
