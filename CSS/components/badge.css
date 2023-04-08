@@ -11,3 +11,13 @@
   color: white;
   font-weight: 600;
 }
+
+.point {
+  background-color: var(--notification);
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  right: 2px;
+  top: -7px;
+}
