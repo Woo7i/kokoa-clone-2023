@@ -5,11 +5,10 @@
 .more-suggestion {
   border-top: var(--main-border);
   margin-top: 15px;
-  padding-top: 30px;
+  padding-top: 10px;
 }
-
-.more-suggestion__title {
-  margin: 15px;
+.more-suggetion__title {
+  margin: 20px 10px;
   /* padding: 15px; */
 }
 
@@ -23,12 +22,14 @@
 .more-suggestion__icon {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 .more-suggestion__icon-image img {
   width: 55px;
   height: 55px;
   border-radius: 10px;
+  margin-top: 5px;
 }
 .more-suggestion_icon-title {
   margin: 10px;

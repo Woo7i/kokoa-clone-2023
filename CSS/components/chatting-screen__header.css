@@ -1,0 +1,30 @@
+.chatting-header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chatting-header__column {
+  width: 33%;
+}
+.chatting-header__title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.chatting-header__column:first-child {
+  margin-right: auto;
+}
+
+.chatting-header__column:nth-child(2) {
+  text-align: center;
+}
+
+.chatting-header__column:last-child {
+  margin-left: auto;
+  display: flex;
+  justify-content: end;
+}
+.chatting-header__column span:last-child {
+  margin-left: 20px;
+}
