@@ -20,3 +20,16 @@
 .screen-header__icons i {
   padding: 0px 10px;
 }
+
+@keyframes wheelCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: wheelCog 2s linear infinite;
+}
